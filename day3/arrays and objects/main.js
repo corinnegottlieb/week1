@@ -47,14 +47,14 @@ let library = {
     }
 myList.push(library)
 console.log(myList)
-*/
-const reservation = {
-    bob: {claimed: false},
-    ted: { claimed: true}
-}
-const name = prompt("Please enter the name for your reservation").toLowerCase()
 
-/*
+// const reservation = {
+//     bob: {claimed: false},
+//     ted: { claimed: true}
+// }
+// const name = prompt("Please enter the name for your reservation").toLowerCase()
+
+
 if (reservation[name] && !reservation[name].claimed){
     console.log("Welcome")
 }
@@ -64,7 +64,7 @@ else if (reservation[name] && reservation[name].claimed) {
 else (reservation[name] = {claimed: true})
 console.log(reservation)
 
-*/
+
 
 if (reservation[name]) {
     if(!reservation[name].claimed){

@@ -1,0 +1,9 @@
+/* EXCERCISE 2   color boxes */
+#box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin-right: 10px;
+    display: inline-block;
+
+}
